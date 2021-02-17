@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_profile"
+            android:title="@string/Page1Name"/>
+        <item
+            android:id="@+id/nav_learning"
+            android:title="@string/learning" />
+        <item
+            android:id="@+id/nav_ask_question"
+            android:title="Display Question" />
+        <item
+            android:id="@+id/nav_my_todos"
+            android:title="@string/my_todos" />
+        <item
+            android:id="@+id/nav_about"
+            android:title="@string/about_service" />
+        <item
+            android:id="@+id/nav_contact"
+            android:title="@string/contact_us" />
+        <item
+            android:id="@+id/nav_feedback"
+            android:title="@string/feedback" />
+        <item
+            android:id="@+id/nav_log_out"
+            android:title="@string/log_out" />
+        <item
+            android:id="@+id/nav_delete_profile"
+            android:title="@string/delete_profile" />
+    </group>
+</menu>
